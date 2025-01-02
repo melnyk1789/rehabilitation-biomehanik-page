@@ -1,0 +1,116 @@
+/* Общие стили */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f6f9ed;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Шапка (header) */
+.header {
+    background-color: #88a044;
+    padding: 20px 0;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Основной блок (main) */
+.main {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.main-title {
+    color: #88a044;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.main-text {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* Карточки услуг */
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.service-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.service-title {
+    color: #88a044;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.service-text {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Кнопка */
+.button-container {
+    margin-top: 40px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #88a044;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #6d8a38;
+}
+
+/* Подвал (footer) */
+.footer {
+    background-color: #88a044;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
